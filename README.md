@@ -1,4 +1,4 @@
-# Trendify - Ecommerce Website 🛍️
+<center><h1>Trendify - Ecommerce Website 🛍️</h1></center>
 
 ## About 
 <p>
