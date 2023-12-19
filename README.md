@@ -1,4 +1,4 @@
-# Trendify an ecommerce website
+# Trendify - Ecommerce Website 🛍️
 
 ### The Work is in progress...
 
