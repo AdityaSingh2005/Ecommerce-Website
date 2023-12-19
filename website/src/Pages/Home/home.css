@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+
+  /*---------HEADER------------*/
+  #intro {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    position:absolute;
+    top: 0rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.introContent{
+    height: 45vh;
+    width: 100vw;
+    padding: 5rem 5rem 5rem 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introText{
+  margin: 0;
+  padding: 0;
+}
+
+.introName{
+    color: #7C43DF;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding:  0.75rem 1.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: cen;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+
+
+@media screen and (max-width:950px) {
+    .bg{
+        right: 100vw;
+    }
+}
+
+
+
+/*-----------CARDS--------------*/
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F9F9E0;
+  }
+
+  .card {
+    position: relative;
+    top: -95px;
+    z-index: 2;
+    width: 400px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 10px 0px 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+
+/*---------CONTACT--------*/
+
+  .contactPage{
+    min-height: calc(100vh - 9rem);
+    width: 100%;
+    max-width: 100rem;
+    margin: auto auto;
+    text-align:  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB9F22;
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.contactDesc{
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    color:  white;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+    border: none;
+}
+
+.submitBtn{
+    background-color: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.submitBtn:hover{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.link{
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    object-fit: cover;
+    cursor: pointer;
+}
