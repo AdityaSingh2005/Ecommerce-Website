@@ -102,11 +102,6 @@ body {
     margin: 10px 10px 0px 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .card:hover {
-    transform: scale(1.05);
   }
 
   .card img {
@@ -124,6 +119,51 @@ body {
     }
   }
 
+
+
+/*---------CATEGORY--------*/
+.category{
+  background-color: #F9F9E0;
+  padding: 25px;
+}
+
+.category-head{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.category-heading{
+  margin-left: 4.5%;
+}
+
+.card-contents{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.carding {
+  width: 150px;
+  overflow: hidden;
+  border: 1px solid #352E6D;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.carding:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border: none;
+}
 
 /*---------CONTACT--------*/
 
